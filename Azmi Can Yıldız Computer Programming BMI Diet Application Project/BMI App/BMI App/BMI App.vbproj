@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A693809F-75B2-42C7-AF67-DF9DCAD2DE54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BMI_App.My.MyApplication</StartupObject>
+    <RootNamespace>BMI_App</RootNamespace>
+    <AssemblyName>BMI App</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BMI App.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BMI App.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OleDb, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.8.0.0\lib\net462\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChagePassword.Designer.vb">
+      <DependentUpon>ChagePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChagePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotUserName.Designer.vb">
+      <DependentUpon>ForgotUserName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotUserName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPanel.Designer.vb">
+      <DependentUpon>NewPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBMI.Designer.vb">
+      <DependentUpon>UpdateBMI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBMI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekFourMoveEO.Designer.vb">
+      <DependentUpon>WeekFourMoveEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekFourMoveEO.vb" />
+    <Compile Include="WeekFourMoveN.Designer.vb">
+      <DependentUpon>WeekFourMoveN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekFourMoveN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekFourMoveOW.Designer.vb">
+      <DependentUpon>WeekFourMoveOW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekFourMoveOW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekFourMoveUW.Designer.vb">
+      <DependentUpon>WeekFourMoveUW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekFourMoveUW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekOneMoveEO.Designer.vb">
+      <DependentUpon>WeekOneMoveEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekOneMoveEO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekOneMoveO.Designer.vb">
+      <DependentUpon>WeekOneMoveO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekOneMoveO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekOneMoveOW.Designer.vb">
+      <DependentUpon>WeekOneMoveOW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekOneMoveOW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekOneMoveUW.Designer.vb">
+      <DependentUpon>WeekOneMoveUW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekOneMoveUW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekFourMoveO.Designer.vb">
+      <DependentUpon>WeekFourMoveO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekFourMoveO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekThreeMoveEO.Designer.vb">
+      <DependentUpon>WeekThreeMoveEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekThreeMoveEO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekThreeMoveN.Designer.vb">
+      <DependentUpon>WeekThreeMoveN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekThreeMoveN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekThreeMoveO.Designer.vb">
+      <DependentUpon>WeekThreeMoveO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekThreeMoveO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekThreeMoveOW.Designer.vb">
+      <DependentUpon>WeekThreeMoveOW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekThreeMoveOW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekThreeMoveUW.Designer.vb">
+      <DependentUpon>WeekThreeMoveUW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekThreeMoveUW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekTwoMoveEO.Designer.vb">
+      <DependentUpon>WeekTwoMoveEO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekTwoMoveEO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekTwoMoveN.Designer.vb">
+      <DependentUpon>WeekTwoMoveN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekTwoMoveN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekOneMoveN.Designer.vb">
+      <DependentUpon>WeekOneMoveN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekOneMoveN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewUser.Designer.vb">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekTwoMoveO.Designer.vb">
+      <DependentUpon>WeekTwoMoveO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekTwoMoveO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekTwoMoveOW.Designer.vb">
+      <DependentUpon>WeekTwoMoveOW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekTwoMoveOW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeekTwoMoveUW.Designer.vb">
+      <DependentUpon>WeekTwoMoveUW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeekTwoMoveUW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChagePassword.resx">
+      <DependentUpon>ChagePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotUserName.resx">
+      <DependentUpon>ForgotUserName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPanel.resx">
+      <DependentUpon>NewPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBMI.resx">
+      <DependentUpon>UpdateBMI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekFourMoveEO.resx">
+      <DependentUpon>WeekFourMoveEO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekFourMoveN.resx">
+      <DependentUpon>WeekFourMoveN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekFourMoveOW.resx">
+      <DependentUpon>WeekFourMoveOW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekFourMoveUW.resx">
+      <DependentUpon>WeekFourMoveUW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekOneMoveEO.resx">
+      <DependentUpon>WeekOneMoveEO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekOneMoveN.resx">
+      <DependentUpon>WeekOneMoveN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekOneMoveO.resx">
+      <DependentUpon>WeekOneMoveO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekOneMoveOW.resx">
+      <DependentUpon>WeekOneMoveOW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekOneMoveUW.resx">
+      <DependentUpon>WeekOneMoveUW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekFourMoveO.resx">
+      <DependentUpon>WeekFourMoveO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekThreeMoveEO.resx">
+      <DependentUpon>WeekThreeMoveEO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekThreeMoveN.resx">
+      <DependentUpon>WeekThreeMoveN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekThreeMoveO.resx">
+      <DependentUpon>WeekThreeMoveO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekThreeMoveOW.resx">
+      <DependentUpon>WeekThreeMoveOW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekThreeMoveUW.resx">
+      <DependentUpon>WeekThreeMoveUW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekTwoMoveEO.resx">
+      <DependentUpon>WeekTwoMoveEO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekTwoMoveN.resx">
+      <DependentUpon>WeekTwoMoveN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekTwoMoveO.resx">
+      <DependentUpon>WeekTwoMoveO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekTwoMoveOW.resx">
+      <DependentUpon>WeekTwoMoveOW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeekTwoMoveUW.resx">
+      <DependentUpon>WeekTwoMoveUW.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\login bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PersonIcon.png" />
+    <None Include="Resources\resim.jpg" />
+    <None Include="Resources\iconuserrr-Photoroom.png-Photoroom.png" />
+    <None Include="Resources\iconuserrr.jpg" />
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\MoveK4.gif" />
+    <None Include="Resources\MoveK3.gif" />
+    <None Include="Resources\MoveK2.gif" />
+    <None Include="Resources\MoveK1.gif" />
+    <None Include="Resources\MoveH4.gif" />
+    <None Include="Resources\MoveH3.gif" />
+    <None Include="Resources\MoveH2.gif" />
+    <None Include="Resources\MoveH1.gif" />
+    <None Include="Resources\MoveG4.gif" />
+    <None Include="Resources\MoveG3.gif" />
+    <None Include="Resources\MoveG2.gif" />
+    <None Include="Resources\MoveG1.gif" />
+    <None Include="Resources\MoveF4.gif" />
+    <None Include="Resources\MoveF3.gif" />
+    <None Include="Resources\MoveF2.gif" />
+    <None Include="Resources\MoveF1.gif" />
+    <None Include="Resources\MoveD4.gif" />
+    <None Include="Resources\MoveD3.gif" />
+    <None Include="Resources\MoveD2.gif" />
+    <None Include="Resources\MoveD1.gif" />
+    <None Include="Resources\MoveS4.gif" />
+    <None Include="Resources\MoveS3.gif" />
+    <None Include="Resources\MoveS2.gif" />
+    <None Include="Resources\MoveS1.gif" />
+    <None Include="Resources\MoveA4.gif" />
+    <None Include="Resources\MoveA3.gif" />
+    <None Include="Resources\MoveA2.gif" />
+    <None Include="Resources\MoveA1.gif" />
+    <None Include="Resources\MoveP4.gif" />
+    <None Include="Resources\MoveP3.gif" />
+    <None Include="Resources\MoveP2.gif" />
+    <None Include="Resources\MoveP1.gif" />
+    <None Include="Resources\MoveO4.gif" />
+    <None Include="Resources\MoveO3.gif" />
+    <None Include="Resources\MoveO2.gif" />
+    <None Include="Resources\MoveO1.gif" />
+    <None Include="Resources\MoveU4.gif" />
+    <None Include="Resources\MoveU3.gif" />
+    <None Include="Resources\MoveU2.gif" />
+    <None Include="Resources\MoveU1.gif" />
+    <None Include="Resources\MoveT4.gif" />
+    <None Include="Resources\MoveT3.gif" />
+    <None Include="Resources\MoveT2.gif" />
+    <None Include="Resources\MoveT1.gif" />
+    <None Include="Resources\MoveY4.gif" />
+    <None Include="Resources\MoveY3.gif" />
+    <None Include="Resources\MoveY2.gif" />
+    <None Include="Resources\MoveY1.gif" />
+    <None Include="Resources\MoveR4.gif" />
+    <None Include="Resources\MoveR3.gif" />
+    <None Include="Resources\MoveR2.gif" />
+    <None Include="Resources\MoveR1.gif" />
+    <None Include="Resources\MoveE4.gif" />
+    <None Include="Resources\MoveE3.gif" />
+    <None Include="Resources\MoveE2.gif" />
+    <None Include="Resources\MoveE1.gif" />
+    <None Include="Resources\MoveW4.gif" />
+    <None Include="Resources\MoveW3.gif" />
+    <None Include="Resources\MoveW2.gif" />
+    <None Include="Resources\MoveW1.gif" />
+    <None Include="Resources\MoveQ4.gif" />
+    <None Include="Resources\MoveQ3.gif" />
+    <None Include="Resources\MoveQ2.gif" />
+    <None Include="Resources\MoveQ1.gif" />
+    <None Include="Resources\MoveB4.gif" />
+    <None Include="Resources\MoveB3.gif" />
+    <None Include="Resources\MoveB2.gif" />
+    <None Include="Resources\MoveB1.gif" />
+    <None Include="Resources\MoveMV4.gif" />
+    <None Include="Resources\MoveMV3.gif" />
+    <None Include="Resources\MoveMV2.gif" />
+    <None Include="Resources\MoveMV1.gif" />
+    <None Include="Resources\MoveV4.gif" />
+    <None Include="Resources\MoveV3.gif" />
+    <None Include="Resources\MoveV2.gif" />
+    <None Include="Resources\MoveV1.gif" />
+    <None Include="Resources\Move 2.gif" />
+    <None Include="Resources\Move 4.gif" />
+    <None Include="Resources\Move 1.gif" />
+    <None Include="Resources\Move 3.gif" />
+    <None Include="Resources\SporResim2-removebg-preview.png" />
+    <None Include="Resources\SporResim1-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

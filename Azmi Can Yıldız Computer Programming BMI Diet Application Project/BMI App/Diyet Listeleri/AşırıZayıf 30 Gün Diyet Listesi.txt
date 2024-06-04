@@ -1,0 +1,215 @@
+Hafta 1:
+
+Gün 1:
+Sabah: Yulaf ezmesi, bir dilim tam buğday ekmeği, bir avokado dilimi, bir elma
+Öğle: Izgara tavuk göğsü, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 2:
+Öğle: Izgara somon, kahverengi pirinç, brokoli
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Tavuklu sebzeli kebap, bulgur pilavı, cacık
+Gece: Bir dilim tam buğday ekmeği, bir avuç fındık
+
+Gün 3:
+Sabah: Omlet (peynir, sebze), bir dilim tam buğday ekmeği, bir muz
+Öğle: Mercimek çorbası, ızgara hindi göğsü, buğday pilavı
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli wok, kepekli makarna
+Gece: Bir bardak ayran
+
+Gün 4:
+Sabah: Peynirli tam buğday tost, bir adet haşlanmış yumurta, portakal
+Öğle: Izgara köfte, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç fındık veya badem
+Akşam: Balık ızgara, kahverengi pirinç, brokoli
+Gece: Bir dilim tam buğday ekmeği, bir bardak süt
+
+Gün 5:
+Sabah: Tam buğday gevrek, bir dilim tam buğday ekmeği, avokado dilimleri, bir elma
+Öğle: Izgara tavuk salatası, bir dilim tam buğday ekmeği
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli pilav, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 6:
+Sabah: Yoğurtlu yulaf ezmesi, bir dilim tam buğday ekmeği, bir muz
+Öğle: Izgara biftek, kahverengi pirinç, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli rosto, bulgur pilavı
+Gece: Bir dilim tam buğday ekmeği, bir avuç badem
+
+Gün 7:
+Sabah: Yulaf ezmesi (süt ile pişirilmiş), bir dilim tam buğday ekmeği, fıstık ezmesi, portakal
+Öğle: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Izgara somon, kahverengi pirinç, brokoli
+Gece: Bir bardak ayran
+
+Hafta 2:
+
+Gün 8:
+Öğle: Tavuklu sebzeli kebap, bulgur pilavı, cacık
+Ara Öğün: Bir dilim tam buğday ekmeği, bir avuç fındık
+Akşam: Izgara tavuk göğsü, kahverengi pirinç, yeşil salata
+Gece: Bir bardak süt
+
+Gün 9:
+Sabah: Yulaf ezmesi, bir dilim tam buğday ekmeği, bir avokado dilimi, bir elma
+Öğle: Izgara somon, kahverengi pirinç, brokoli
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Gece: Bir dilim tam buğday ekmeği, bir bardak ayran
+
+Gün 10:
+Sabah: Yoğurtlu meyve salatası, bir dilim tam buğday ekmeği, fıstık ezmesi
+Öğle: Izgara köfte, bulgur pilavı, yeşil salata
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Balık ızgara, kahverengi pirinç, brokoli
+Gece: Bir dilim tam buğday ekmeği, bir avuç fındık
+
+Gün 11:
+Sabah: Omlet (peynir, sebze), bir dilim tam buğday ekmeği, bir muz
+Öğle: Mercimek çorbası, ızgara hindi göğsü, buğday pilavı
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Tavuklu sebzeli wok, kepekli makarna
+Gece: Bir bardak ayran
+
+Gün 12:
+Sabah: Peynirli tam buğday tost, bir adet haşlanmış yumurta, portakal
+Öğle: Izgara tavuk salatası, bir dilim tam buğday ekmeği
+Ara Öğün: Bir avuç fındık veya badem
+Akşam: Tavuklu sebzeli pilav, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 13:
+Sabah: Tam buğday gevrek, bir dilim tam buğday ekmeği, avokado dilimleri, bir elma
+Öğle: Izgara biftek, kahverengi pirinç, yeşil salata
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli rosto, bulgur pilavı
+Gece: Bir dilim tam buğday ekmeği, bir avuç badem
+
+Gün 14:
+Sabah: Yulaf ezmesi (süt ile pişirilmiş), bir dilim tam buğday ekmeği, fıstık ezmesi, portakal
+Öğle: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Izgara somon, kahverengi pirinç, brokoli
+Gece: Bir bardak ayran
+
+Hafta 3:
+
+Gün 15:
+Sabah: Yoğurtlu yulaf ezmesi, bir dilim tam buğday ekmeği, bir muz
+Öğle: Izgara tavuk göğsü, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli kebap, bulgur pilavı, cacık
+Gece: Bir dilim tam buğday ekmeği, bir avuç fındık
+
+Gün 16:
+Sabah: Tam buğday gevrek, bir dilim tam buğday ekmeği, avokado dilimleri, bir elma
+Öğle: Izgara somon, kahverengi pirinç, brokoli
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 17:
+Sabah: Peynirli tam buğday tost, bir adet haşlanmış yumurta, portakal
+Öğle: Izgara köfte, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç fındık veya badem
+Akşam: Balık ızgara, kahverengi pirinç, brokoli
+Gece: Bir dilim tam buğday ekmeği, bir bardak ayran
+
+Gün 18:
+Sabah: Omlet (peynir, sebze), bir dilim tam buğday ekmeği, bir muz
+Öğle: Mercimek çorbası, ızgara hindi göğsü, buğday pilavı
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Tavuklu sebzeli wok, kepekli makarna
+Gece: Bir bardak ayran
+
+Gün 19:
+Sabah: Yoğurtlu meyve salatası, bir dilim tam buğday ekmeği, fıstık ezmesi
+Öğle: Izgara tavuk salatası, bir dilim tam buğday ekmeği
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli pilav, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 20:
+Sabah: Yulaf ezmesi, bir dilim tam buğday ekmeği, bir avokado dilimi, bir elma
+Öğle: Izgara biftek, kahverengi pirinç, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli rosto, bulgur pilavı
+Gece: Bir dilim tam buğday ekmeği, bir avuç badem
+
+Gün 21:
+Sabah: Yulaf ezmesi (süt ile pişirilmiş), bir dilim tam buğday ekmeği, fıstık ezmesi, portakal
+Öğle: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Izgara somon, kahverengi pirinç, brokoli
+Gece: Bir bardak ayran
+
+Hafta 4:
+
+Gün 22:
+Sabah: Yoğurtlu yulaf ezmesi, bir dilim tam buğday ekmeği, bir muz
+Öğle: Izgara tavuk göğsü, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli kebap, bulgur pilavı, cacık
+Gece: Bir dilim tam buğday ekmeği, bir avuç fındık
+
+Gün 23:
+Sabah: Tam buğday gevrek, bir dilim tam buğday ekmeği, avokado dilimleri, bir elma
+Öğle: Izgara somon, kahverengi pirinç, brokoli
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 24:
+Sabah: Peynirli tam buğday tost, bir adet haşlanmış yumurta, portakal
+Öğle: Izgara köfte, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç fındık veya badem
+Akşam: Balık ızgara, kahverengi pirinç, brokoli
+Gece: Bir dilim tam buğday ekmeği, bir bardak ayran
+
+Gün 25:
+Sabah: Omlet (peynir, sebze), bir dilim tam buğday ekmeği, bir muz
+Öğle: Mercimek çorbası, ızgara hindi göğsü, buğday pilavı
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Tavuklu sebzeli wok, kepekli makarna
+Gece: Bir bardak ayran
+
+Gün 26:
+Sabah: Yoğurtlu meyve salatası, bir dilim tam buğday ekmeği, fıstık ezmesi
+Öğle: Izgara tavuk salatası, bir dilim tam buğday ekmeği
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli pilav, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
+
+Gün 27:
+Sabah: Yulaf ezmesi, bir dilim tam buğday ekmeği, bir avokado dilimi, bir elma
+Öğle: Izgara biftek, kahverengi pirinç, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli rosto, bulgur pilavı
+Gece: Bir dilim tam buğday ekmeği, bir avuç badem
+
+Gün 28:
+Sabah: Yulaf ezmesi (süt ile pişirilmiş), bir dilim tam buğday ekmeği, fıstık ezmesi, portakal
+Öğle: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Ara Öğün: Bir avuç kuru meyve
+Akşam: Izgara somon, kahverengi pirinç, brokoli
+Gece: Bir bardak ayran
+
+Gün 29:
+Sabah: Yoğurtlu yulaf ezmesi, bir dilim tam buğday ekmeği, bir muz
+Öğle: Izgara tavuk göğsü, bulgur pilavı, yeşil salata
+Ara Öğün: Bir avuç badem veya fındık
+Akşam: Tavuklu sebzeli kebap, bulgur pilavı, cacık
+Gece: Bir dilim tam buğday ekmeği, bir avuç fındık
+
+Gün 30:
+Sabah: Tam buğday gevrek, bir dilim tam buğday ekmeği, avokado dilimleri, bir elma
+Öğle: Izgara somon, kahverengi pirinç, brokoli
+Ara Öğün: Bir porsiyon meyve smoothiesi
+Akşam: Tavuklu sebzeli noodle, bir dilim tam buğday ekmeği
+Gece: Bir bardak süt
